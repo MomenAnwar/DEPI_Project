@@ -28,7 +28,7 @@ return (
                 <Link className='link'> الاعلانات </Link>
                 <Link className='link'> الطلبات </Link>
                 <Link className='link'> المشتغلين </Link>
-                <Link className='link'> تواصل معنا </Link>
+                <Link className='link'  to="contactUs"> تواصل معنا </Link>
             </Nav>
         </Navbar.Collapse>
         <div className="d-flex gap-2 mx-5 nav-extra">

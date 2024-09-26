@@ -9,6 +9,8 @@ import Regiter from './components/Routes/Register/Regiter.jsx';
 import Login from './components/Login/Login.jsx';
 import Profile from './components/Routes/Profile.jsx';
 import BeProvider from './components/Navbar/BeProvider.jsx';
+import ContactUs from './components/Routes/Contact/ContactUs.jsx';
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
         <Route path='login' element={<Login />} />
         <Route path='profile' element={<Profile />} />
         <Route path='beProvider' element={<BeProvider />} />
+        <Route path='contactUs' element={<ContactUs />} />
       </Routes>
       <Footer />
     </div>

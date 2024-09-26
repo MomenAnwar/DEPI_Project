@@ -26,9 +26,9 @@ return (
                     </form>
             </div>
             <div className="sec2 d-flex justify-content-between">
-                <div className="yt-vid w-5/12 h-60">
-                    <iframe src="https://www.youtube.com/watch?v=l-aV3qt6dKw" frameborder="0" title='buisness' className='w-100 h-full'></iframe>
-                </div>
+             <div className="yt-vid w-5/12 h-60">
+               <iframe src="https://www.youtube.com/embed/l-aV3qt6dKw" frameborder="0" title='buisness' className='w-100 h-full'></iframe>
+            </div>
                 <div className="two-items d-flex gap-3 w-50">
                     <div className="item">
                         <i class="fa-solid fa-file-invoice-dollar"></i>
